@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+
+#gray {
+    background-color: rgba(128, 128, 128, 0.918);
+    color: white;
+    text-align: center;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    padding: 20px;
+}
+
+#image{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-image: linear-gradient(to right, rgb(255, 247, 204), rgb(245, 167, 65));
+}
+
+.square{
+    width: 200px;
+    height:150px;
+    border-width: 5px;
+}
+
+#square1 {
+    border-style: solid;
+    border-color:black;
+    background-color: pink;
+    float:right;
+    }
+
+    #square2 {
+        border-style: solid;
+        border-color:black;
+        background-color: pink;
+        float:left;
+        }
+p{
+    margin:5px;
+}
