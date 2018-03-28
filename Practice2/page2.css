@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
-}
-
+  }
 
 #gray {
     background-color: rgba(128, 128, 128, 0.918);
@@ -12,36 +11,79 @@
     left:0;
     right:0;
     padding: 20px;
+  }
+
+#google{
+    position:fixed;
+    top:0;
+    right:0;
+    width:100px;
+    height: 100px;
+    background-image: url("google.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
 }
 
-#image{
+body {
+    background-image: linear-gradient(to bottom, rgb(240, 219, 180), orange);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#logo {
     width: 100px;
+    height: auto;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-}
-body{
-    background-image: linear-gradient(to right, rgb(255, 247, 204), rgb(245, 167, 65));
+    margin-top: 70px;
 }
 
-.square{
+.box{
+    border: 2px solid black;
     width: 200px;
-    height:150px;
-    border-width: 5px;
+    height: 100px;
+    float: right;
+    position: relative;
 }
 
-#square1 {
-    border-style: solid;
-    border-color:black;
-    background-color: pink;
-    float:right;
+#one {
+    width: 180px;
+    height: 80px;
+    background-color: lightpink;
+    margin: 10px;
+}
+
+#two {
+    background-color: lightpink;
+    margin: 15px;
+    float: left;
+}
+
+#three {
+    background-color: lightpink;
+    height: 80px;
+    width: 180px;
+    position: absolute;
+    transform: translate(-75%,10%);
+    float: center;
+}
+
+@media (max-width: 600px) {
+    .box {
+        width:100%;
     }
 
-    #square2 {
-        border-style: solid;
-        border-color:black;
-        background-color: pink;
-        float:left;
-        }
-p{
-    margin:5px;
+    #one {
+        width: 100%;
+    }
+
+    #two {
+        width: 100%;
+    }
 }
+
+
+
