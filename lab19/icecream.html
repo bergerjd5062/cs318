@@ -9,11 +9,11 @@
 <body>
     <form action="https://formspree.io/jberger722@email.com" method="POST">
         <h1>Chillax Order Form</h1>
-        <label id="name">
+        <label for="name">
             <span class="left">Who are you?</span>
             <input type="text" name="names" class="right" id="name">
         </label>
-        <label id="flavor">
+        <label for="flavor">
             <span class="left">What Flavor?</span>
             <select size="4" name="flavors" class="right" id="flavor">
                 <option>Chocolate</option>
@@ -22,7 +22,7 @@
                 <option>Mint Chocolate Chip</option>
             </select>
         </label>
-        <label id="dish">
+        <label for="dish">
             <span class="left">In what?</span>
             <select size="3" name="dishes" class="right" id="dish">
                 <option>Waffle</option>
@@ -30,15 +30,15 @@
                 <option>Dish</option>
             </select>
         </label>
-        <label id="sprinkles">
+        <label for="sprinkles">
             <span class="left">Sprinkles?</span>
             <input type="checkbox" name="sprinkles" class="right" id="sprinkles1">
         </label>
-        <label id="messy">
+        <label for="messy">
             <span class="left">How messy are you?</span>
             <input type="range" name="mess" class="right" id="messy" min="0"  max="3">
         </label>
-        <label id="order">
+        <label for="order">
             <span class="left">&nbsp;</span>
             <input class="right" type="submit" value="Order" id="order">
         </label>
