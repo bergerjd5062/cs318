@@ -48,7 +48,7 @@ h2 {
 }
 
 h3 {
-    text-align: right;
+   float: right;
     padding-right: 30px;
     font-size: 25px;
 }
