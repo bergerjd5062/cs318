@@ -1,0 +1,409 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(background.jpg) ;
+}
+
+div {
+    width: 1000px;
+}
+
+header {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    background-color:  rgb(247, 213, 173);
+}
+
+h1{
+    margin:20px;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 30px;
+    margin:10px;
+}
+
+h3 {
+    text-align: right;
+    padding-right: 30px;
+    font-size: 25px;
+}
+
+nav {
+     text-align: center;
+     background-color:  rgb(247, 213, 173);
+}
+
+a{
+    font-size: 35pt;
+    padding:20px;
+    color:black;
+    text-decoration: none;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+p a{
+    font-size: 15pt;
+    color:rgba(134, 131, 131, 0.781);
+}
+
+li{
+    font-size:20pt;
+}
+
+nav div{   
+    display: inline-block;
+    width: 60px;
+    background-color: rgb(247, 213, 173);
+    font-family: 'Nanum Pen Script', cursive;
+
+}
+
+.news{
+    margin:20px;
+}
+
+
+
+.section {
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 8px 2px burlywood;
+    padding-top:0px;
+    background-color:burlywood;
+    position: relative;
+    }
+
+   
+
+
+
+
+ #grid{
+    width:1000px;
+    background-color:burlywood;
+}       
+        
+        
+
+#image {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+img{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.member{
+    width:150px;
+    margin-left:40px;
+    padding-top: 30px;
+    margin-bottom:25px;
+}
+
+.member:hover{
+    transform: scale(1.5);
+    transition-property: opacity, transform, z-index;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+#pic:hover{
+    transform: scale(1.5);
+    transition-property: opacity, transform, z-index;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    border-radius: 5%;
+}
+
+
+
+.grid{
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pic{
+    width:200px;
+    height:175px;
+    padding:2px;
+    margin-left:25px;
+    margin-right: 20px;
+}
+
+.media{
+    width:50px;
+    height:auto;
+}
+
+b{
+    font-size: 20pt;
+}
+
+.about{
+    display:inline;
+    font-size: 16pt;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+  
+
+h2{
+    padding-left: 60px;
+}
+
+
+.text{
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: bold;
+    font-size: 15pt;
+    padding:5px;
+    background-color: burlywood;
+    height:500px;
+    position: relative;
+    border: 2px solid burlywood;
+}
+
+  .text1{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 15pt;
+    padding:5px;
+    background-color: whitesmoke;
+    height:510px;
+    position: relative;
+}
+
+  .text2{
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: bold;
+    font-size: 15pt;
+    padding:5px;
+    background-color: burlywood;
+    height:210px;
+    position: relative;
+}
+
+  .text3{
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: bold;
+    font-size: 15pt;
+    padding:5px;
+    background-color: burlywood;
+    height:510px;
+    position: relative;
+}
+
+  .text4{
+    width:1000px;
+    font-family: 'Nanum Pen Script', cursive;
+    padding:5px;
+    padding-left:10px;
+    margin-top:15px;
+    margin-left:4px;
+    margin-bottom:15px;
+    background-color: rgb(236, 192, 134);
+    border: 1px solid bisque;
+    height:70px;
+    position: relative;
+    border-radius: 10%;
+}
+ 
+
+#album3 img{
+    border: 2px solid bisque;
+}
+
+  #right{
+    width:450px;
+    transform: translate(115%, -87%);
+    border-radius: 5%;
+    padding-top: 10px;
+    position: relative;
+}
+
+#right img{
+    border: 2px solid bisque;
+}
+
+  #banner{
+    width:990px;
+    border: 2px solid bisque;
+}
+
+  form{
+    width:300px;
+    height:285px;
+    background-color: rgb(224, 167, 93);
+    border-radius: 7%;
+    padding:15px;
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 12pt;
+    float:right;
+    padding-top: 35px;
+    position: relative;
+    border: 2px solid bisque;
+    transform: translate(0%,-35%, 15%)
+}
+
+input:not(:last-child){
+    width:200px;
+}
+
+input:focus{
+    outline:none;
+    border-color: rgb(105, 159, 230);
+    box-shadow: 0 0 20px rgb(105, 159, 230);
+    border:none;
+}
+
+label{
+    display:block;
+    padding:3px;
+}
+
+
+
+#submit{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(43, 43, 49);
+    color:white;
+    border: none;
+}
+
+#player{
+    padding-top:10px;
+    position: relative;
+    padding-left: 10px;
+    transform: translate(45%, -95%)
+    }
+    
+    #player2{
+      padding-top:10px;
+      padding-bottom:20px;
+      position: relative;
+    }
+
+
+    #album2{
+        font-size: 20pt;
+        padding-left: 50px;
+    }
+
+    #album3{
+        width:400px;
+        margin-left: 20px;
+       
+    }
+
+    .footer{
+       display:flex;
+       justify-content: center;
+       padding-top: 10px;
+    }
+
+    
+
+
+
+
+
+  @media (max-width: 600px) {
+    a{
+        font-size:20pt;
+        padding:10px;
+    }
+    #image{
+        width:500px;
+    }
+    .media{
+        width:30px;
+        padding:2px;
+    }
+    img{
+        width:500px;
+    }
+    .section{
+        width:500px;
+        height:auto;
+    }
+   
+    h1{
+    font-size: 18pt;
+    }
+    #grid{
+        visibility: hidden;
+        height:0;
+    }
+    #pic{
+        visibility: hidden; 
+        height:0;
+    }
+    #right{
+        visibility: hidden;
+    }
+    #banner{
+       visibility: hidden;
+    }
+    #album3 img{
+    width:300px;
+    margin-left: 70px;
+    }
+    .text{
+        width:500px;
+        height:400px;
+    }
+    .text3{
+        width:500px;
+        height:850px;
+    }
+    .text4{
+        width:500px;
+        height:150px;
+        text-align: center;
+    }
+    #player{
+        transform: translate(1%, 0%)
+    }
+    #shows{
+        text-align: center;
+    }
+    .text1{
+        width:500px;
+        font-size: 11pt;
+    }
+    .member{
+        width:200px;
+        display:block;
+        padding:10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .member:hover{
+    transform: none;
+    }
+
+    .footer{
+        transform: translate(-25%, 0%);
+    }
+
+    .footer img{
+        width:40px;
+    }
+
+
+} 
+
+    
+
