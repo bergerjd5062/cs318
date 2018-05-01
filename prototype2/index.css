@@ -345,16 +345,20 @@ label{
     #grid{
         visibility: hidden;
         height:0;
+        width:500px;
     }
     #pic{
         visibility: hidden; 
         height:0;
     }
     #right{
-        visibility: hidden;
+        display:none;
+        width:500px;
     }
+
     #banner{
        visibility: hidden;
+       width:500px;
     }
     #album3 img{
     width:300px;
@@ -374,7 +378,12 @@ label{
         text-align: center;
     }
     #player{
-        transform: translate(1%, 0%)
+        transform: translate(1%, 0%);
+        width:500px;
+    }
+
+    #player2{
+        width:500px;
     }
     #shows{
         text-align: center;
@@ -395,7 +404,8 @@ label{
     }
 
     .footer{
-        transform: translate(-25%, 0%);
+        width:500px;
+        transform: translate(0%, 0%);
     }
 
     .footer img{
