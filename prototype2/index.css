@@ -178,7 +178,7 @@ h2{
     font-size: 15pt;
     padding:5px;
     background-color: whitesmoke;
-    height:510px;
+    height:520px;
     position: relative;
 }
 
@@ -212,9 +212,13 @@ h2{
     margin-bottom:15px;
     background-color: rgb(236, 192, 134);
     border: 1px solid bisque;
-    height:70px;
+    height:150px;
     position: relative;
     border-radius: 10%;
+}
+
+#signature{
+    font-size: 30pt;
 }
  
 
@@ -320,6 +324,12 @@ label{
 
 
   @media (max-width: 600px) {
+
+body{
+    width:500px;
+    margin-left: auto;
+    margin-right: auto;
+}
     a{
         font-size:20pt;
         padding:10px;
