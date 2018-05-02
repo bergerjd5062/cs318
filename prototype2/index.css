@@ -168,7 +168,7 @@ b{
     font-family: 'Nanum Pen Script', cursive;
     font-size: 15pt;
     padding:5px;
-    background-color: whitesmoke;
+    background-color: rgb(236, 192, 134);
     height:520px;
     position: relative;
 }
@@ -194,9 +194,13 @@ b{
     margin-bottom:15px;
     background-color: rgb(236, 192, 134);
     border: 1px solid bisque;
-    height:150px;
+    height:180px;
     position: relative;
     border-radius: 10%;
+}
+
+.abouttext p:nth-child(6){
+    font-size:13pt;
 }
 
 #signature{
@@ -217,7 +221,7 @@ b{
     border: 2px solid bisque;
 }
 
-  #banner{
+#banner{
     width:990px;    
 }
 
@@ -230,8 +234,9 @@ form{
     text-align: right;
     font-family: sans-serif;
     font-size: 12pt;
+    margin:40px;
+    margin-right:20px;
     float:right;
-    padding-top: 35px;
     position: relative;
     border: 2px solid bisque;
     transform: translate(0%,-35%, 15%)
@@ -321,7 +326,9 @@ img{
     height:auto;
 }
 form{
-    width:320px;
+    width:330px;
+    margin-right:0;
+    margin:0;
 }
 h1{
     font-size: 18pt;
@@ -372,9 +379,21 @@ h1{
 #shows{
     text-align: center;
 }
+
+#shows li{
+    font-size:20pt;
+    padding:5px;
+}
+
 .indextext{
     width:500px;
-    font-size: 11pt;
+    height:auto;
+    font-size: 13pt;
+    padding:10px;
+}
+
+.indextext p:nth-child(odd){
+display: none;
 }
 .member{
     width:200px;
