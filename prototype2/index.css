@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url(background.jpg) ;
+    background-image: url(background.jpg);
 }
 
 div {
@@ -60,14 +60,11 @@ nav div{
     width: 60px;
     background-color: rgb(247, 213, 173);
     font-family: 'Nanum Pen Script', cursive;
-
 }
 
 .news{
     margin:20px;
 }
-
-
 
 .section {
     margin-left: auto;
@@ -76,19 +73,12 @@ nav div{
     padding-top:0px;
     background-color:burlywood;
     position: relative;
-    }
+}
 
-   
-
-
-
-
- #grid{
+#grid{
     width:1000px;
     background-color:burlywood;
 }       
-        
-        
 
 #image {
     width: 1000px;
@@ -106,7 +96,7 @@ img{
     width:150px;
     margin-left:40px;
     padding-top: 30px;
-    margin-bottom:25px;
+    margin-bottom:33px;
 }
 
 .member:hover{
@@ -124,8 +114,6 @@ img{
     border-radius: 5%;
 }
 
-
-
 .grid{
     width:1000px;
     margin-left: auto;
@@ -135,9 +123,10 @@ img{
 #pic{
     width:200px;
     height:175px;
-    padding:2px;
+    padding:0;
     margin-left:25px;
     margin-right: 20px;
+    border: 1px solid bisque;
 }
 
 .media{
@@ -155,25 +144,18 @@ b{
     font-family: 'Nanum Pen Script', cursive;
 }
 
-  
-
-h2{
-    padding-left: 60px;
-}
-
-
 .text{
     font-family: 'Nanum Pen Script', cursive;
     font-weight: bold;
     font-size: 15pt;
     padding:5px;
     background-color: burlywood;
-    height:500px;
+    height:525px;
     position: relative;
     border: 2px solid burlywood;
 }
 
-  .text1{
+.indextext{
     font-family: 'Nanum Pen Script', cursive;
     font-size: 15pt;
     padding:5px;
@@ -182,17 +164,8 @@ h2{
     position: relative;
 }
 
-  .text2{
-    font-family: 'Nanum Pen Script', cursive;
-    font-weight: bold;
-    font-size: 15pt;
-    padding:5px;
-    background-color: burlywood;
-    height:210px;
-    position: relative;
-}
 
-  .text3{
+.musictext{
     font-family: 'Nanum Pen Script', cursive;
     font-weight: bold;
     font-size: 15pt;
@@ -202,7 +175,7 @@ h2{
     position: relative;
 }
 
-  .text4{
+.abouttext{
     width:1000px;
     font-family: 'Nanum Pen Script', cursive;
     padding:5px;
@@ -218,19 +191,17 @@ h2{
 }
 
 #signature{
-    font-size: 30pt;
+    font-size: 25pt;
 }
  
-
 #album3 img{
     border: 2px solid bisque;
 }
 
-  #right{
+#right{
     width:450px;
-    transform: translate(115%, -87%);
-    border-radius: 5%;
-    padding-top: 10px;
+    transform: translate(115%, -82%);
+   
     position: relative;
 }
 
@@ -239,13 +210,12 @@ h2{
 }
 
   #banner{
-    width:990px;
-    border: 2px solid bisque;
+    width:990px;    
 }
 
-  form{
-    width:300px;
-    height:285px;
+form{
+    width:350px;
+    height:200px;
     background-color: rgb(224, 167, 93);
     border-radius: 7%;
     padding:15px;
@@ -275,8 +245,6 @@ label{
     padding:3px;
 }
 
-
-
 #submit{
     margin-top: 10px;
     padding-top: 10px;
@@ -291,136 +259,134 @@ label{
     position: relative;
     padding-left: 10px;
     transform: translate(45%, -95%)
-    }
+}
     
-    #player2{
-      padding-top:10px;
-      padding-bottom:20px;
-      position: relative;
-    }
+#player2{
+    padding-top:10px;
+    padding-bottom:20px;
+    position: relative;
+}
 
 
-    #album2{
-        font-size: 20pt;
-        padding-left: 50px;
-    }
+#album2{
+    font-size: 20pt;
+    padding-left: 50px;
+}
 
-    #album3{
-        width:400px;
-        margin-left: 20px;
+#album3{
+    width:400px;
+    margin-left: 20px;
        
-    }
+}
 
-    .footer{
-       display:flex;
-       justify-content: center;
-       padding-top: 10px;
-    }
+.footer{
+    display:flex;
+    justify-content: center;
+    padding-top: 10px;
+    width:1000px;
+    background-color: rgb(247, 213, 173);
+}
 
-    
-
-
-
-
-
-  @media (max-width: 600px) {
+@media (max-width: 600px) {
 
 body{
     width:500px;
     margin-left: auto;
     margin-right: auto;
 }
-    a{
-        font-size:20pt;
-        padding:10px;
-    }
-    #image{
-        width:500px;
-    }
-    .media{
-        width:30px;
-        padding:2px;
-    }
-    img{
-        width:500px;
-    }
-    .section{
-        width:500px;
-        height:auto;
-    }
-   
-    h1{
+a{
+    font-size:20pt;
+    padding:10px;
+}
+#image{
+    width:500px;
+}
+.media{
+    width:30px;
+    padding:2px;
+}
+img{
+    width:500px;
+}
+.section{
+    width:500px;
+    height:auto;
+}
+form{
+    width:320px;
+}
+h1{
     font-size: 18pt;
-    }
-    #grid{
-        visibility: hidden;
-        height:0;
-        width:500px;
-    }
-    #pic{
-        visibility: hidden; 
-        height:0;
-    }
-    #right{
-        display:none;
-        width:500px;
-    }
+}
+#grid{
+    visibility: hidden;
+    height:0;
+    width:500px;
+}
+#pic{
+    visibility: hidden; 
+    height:0;
+}
+#right{
+    display:none;
+    width:500px;
+}
 
-    #banner{
-       visibility: hidden;
-       width:500px;
-    }
-    #album3 img{
+#banner{
+    visibility: hidden;
+    width:500px;
+}
+#album3 img{
     width:300px;
     margin-left: 70px;
-    }
-    .text{
-        width:500px;
-        height:400px;
-    }
-    .text3{
-        width:500px;
-        height:850px;
-    }
-    .text4{
-        width:500px;
-        height:150px;
-        text-align: center;
-    }
-    #player{
-        transform: translate(1%, 0%);
-        width:500px;
-    }
+}
+.text{
+    width:500px;
+    height:400px;
+}
+.musictext{
+    width:500px;
+    height:850px;
+}
+.abouttext{
+    width:500px;
+    height:auto;
+    text-align: center;
+}
+#player{
+    transform: translate(1%, 0%);
+    width:500px;
+}
 
-    #player2{
-        width:500px;
-    }
-    #shows{
-        text-align: center;
-    }
-    .text1{
-        width:500px;
-        font-size: 11pt;
-    }
-    .member{
-        width:200px;
-        display:block;
-        padding:10px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .member:hover{
+#player2{
+    width:500px;
+}
+#shows{
+    text-align: center;
+}
+.indextext{
+    width:500px;
+    font-size: 11pt;
+}
+.member{
+    width:200px;
+    display:block;
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.member:hover{
     transform: none;
-    }
+}
 
-    .footer{
-        width:500px;
-        transform: translate(0%, 0%);
-    }
+.footer{
+    width:500px;
+    transform: translate(0%, 0%);
+}
 
-    .footer img{
-        width:40px;
-    }
+.footer img{
+    width:40px;
+}
 
 
 } 
