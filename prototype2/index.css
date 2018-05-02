@@ -120,7 +120,7 @@ img{
     margin-right: auto;
 }
 
-#pic{
+.pic{
     width:200px;
     height:175px;
     padding:0;
@@ -323,7 +323,7 @@ h1{
     height:0;
     width:500px;
 }
-#pic{
+.pic{
     visibility: hidden; 
     height:0;
 }
