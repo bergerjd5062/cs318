@@ -56,7 +56,7 @@ li{
     padding:10px;
 }
 
-li:nth-child(even){
+#shows li:nth-child(even){
     list-style: none;
 }
 
