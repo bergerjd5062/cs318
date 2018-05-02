@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url(background.jpg);
+    background-image: url(images/background.jpg);
 }
 
 div {
@@ -52,6 +52,10 @@ ul a{
 }
 
 li{
+    font-size:20pt;
+}
+
+#shows li{
     font-size:20pt;
     padding:10px;
 }
