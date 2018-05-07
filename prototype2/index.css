@@ -48,7 +48,7 @@ a{
 
 ul a{
     font-size: 15pt;
-    color:rgba(134, 131, 131, 0.781);
+    color:rgba(68, 65, 62, 0.781);
 }
 
 li{
@@ -58,6 +58,12 @@ li{
 #shows li{
     font-size:20pt;
     padding:10px;
+}
+
+#shows a {
+    border: 2px solid black;
+    padding:5px;
+    background-color: bisque;
 }
 
 #shows li:nth-child(even){
@@ -151,6 +157,17 @@ b{
     display:inline;
     font-size: 16pt;
     font-family: 'Nanum Pen Script', cursive;
+}
+
+.tourtext{
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: bold;
+    font-size: 15pt;
+    padding:5px;
+    background-color: burlywood;
+    height:525px;
+    position: relative;
+    border: 2px solid burlywood;
 }
 
 .text{
@@ -271,7 +288,7 @@ label{
     padding-top:10px;
     position: relative;
     padding-left: 10px;
-    transform: translate(45%, -95%)
+    transform: translate(45%, -95%);
 }
     
 #player2{
@@ -329,6 +346,23 @@ form{
     width:330px;
     margin-right:0;
     margin:0;
+    right:70px;
+    top:170px;
+    position: relative;
+}
+#newstext{
+position: absolute;
+width:500px;
+}
+#newstext li{
+    display:none;
+}
+#newstext p:nth-child(odd){
+    display:none;
+}
+.news{
+    margin:0;
+    padding:5px;
 }
 h1{
     font-size: 18pt;
@@ -353,9 +387,13 @@ h1{
 }
 #album3 img{
     width:300px;
-    margin-left: 70px;
+    margin-left: 60px;
 }
 .text{
+    width:500px;
+    height:400px;
+}
+.tourtext{
     width:500px;
     height:400px;
 }
@@ -369,7 +407,7 @@ h1{
     text-align: center;
 }
 #player{
-    transform: translate(1%, 0%);
+    transform: translate(3%, 0%);
     width:500px;
 }
 
