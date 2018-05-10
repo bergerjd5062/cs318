@@ -183,7 +183,7 @@ b{
     font-size: 16pt;
     padding:5px;
     background-color: rgb(236, 192, 134);
-    height:550px;
+    height:560px;
     position: relative;
 }
 
@@ -223,8 +223,9 @@ b{
 .abouttext a{
     font-size: 18pt;
     color:rgb(192, 117, 19);
-    padding:0;
+    padding:2px;
     font-weight: bold;
+    
 }
 
 #signature{
