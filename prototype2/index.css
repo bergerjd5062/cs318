@@ -112,20 +112,16 @@ img{
     margin-left:40px;
     padding-top: 30px;
     margin-bottom:33px;
+    transition: transform 1s;
 }
 
 .member:hover{
     transform: scale(1.5);
-    transition-property: opacity, transform, z-index;
-    transition-duration: 1s;
-    transition-timing-function: ease-in-out;
 }
 
 .pic:hover{
     transform: scale(1.5);
-    transition-property: opacity, transform, z-index;
-    transition-duration: .5s;
-    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
     border-radius: 5%;
 }
 
@@ -142,6 +138,7 @@ img{
     margin-left:25px;
     margin-right: 20px;
     border: 1px solid bisque;
+    transition: transform 1s;
 }
 
 .media{
@@ -183,10 +180,10 @@ b{
 
 .indextext{
     font-family: 'Nanum Pen Script', cursive;
-    font-size: 15pt;
+    font-size: 16pt;
     padding:5px;
     background-color: rgb(236, 192, 134);
-    height:520px;
+    height:550px;
     position: relative;
 }
 
@@ -211,13 +208,23 @@ b{
     margin-bottom:15px;
     background-color: rgb(236, 192, 134);
     border: 1px solid bisque;
-    height:180px;
+    height:250px;
     position: relative;
     border-radius: 10%;
 }
 
 .abouttext p:nth-child(6){
-    font-size:13pt;
+    font-size:14pt;
+}
+.abouttext p:last-child{
+    font-size:18pt;
+    text-align: center;
+}
+.abouttext a{
+    font-size: 18pt;
+    color:rgb(192, 117, 19);
+    padding:0;
+    font-weight: bold;
 }
 
 #signature{
